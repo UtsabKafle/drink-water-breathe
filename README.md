@@ -28,7 +28,7 @@ Zen Space stores all preferences locally on your device. There are no accounts, 
    ```
 2. Ensure `android.package` in `app.json` is correct for your app ID.
 3. Add a repository secret named `EXPO_TOKEN` (generate via `npx eas token:create`).
-4. Run the "Build Android APK" workflow and keep the `apk` build profile (or adjust `eas.json`).
+4. Run the "Build Android APK" workflow. It defaults to the `apk` build profile; choose another profile in the workflow input or update `eas.json`.
 
 ## Notes
 - Notification scheduling requires permission on each device.
